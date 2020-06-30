@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var nameTextField: UITextField!
+  @IBOutlet weak var surnameTextField: UITextField!
+  
+  @IBAction func namePrinted(_ sender: Any) {
+    Persistance.shared.name = nameTextField.text
+    print ("Changed \(nameTextField.text)")
+  }
+  @IBAction func surnamePrinted(_ sender: Any) {
+    Persistance.shared.surname = surnameTextField.text
+    print ("Changed \(surnameTextField.text)")
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    nameTextField.text = Persistance.shared.name
+    surnameTextField.text = Persistance.shared.surname
   }
-
-
 }
 

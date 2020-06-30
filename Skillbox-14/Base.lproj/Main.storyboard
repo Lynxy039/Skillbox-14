@@ -22,11 +22,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="namePrinted:" destination="BYZ-38-t0r" eventType="editingChanged" id="a3j-aw-hU9"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Say-ng-JiW">
                                         <rect key="frame" x="0.0" y="125" width="300" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="surnamePrinted:" destination="BYZ-38-t0r" eventType="editingChanged" id="IK1-N7-4ak"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <constraints>
@@ -42,6 +48,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="i2V-ci-AgK" id="wdp-Wb-1Nt"/>
+                        <outlet property="surnameTextField" destination="Say-ng-JiW" id="09C-1B-vTl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
