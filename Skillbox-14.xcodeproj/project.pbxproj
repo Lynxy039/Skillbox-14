@@ -14,7 +14,35 @@
 		36F3B94524ABC9320031568E /* Skillbox_14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */; };
 		36F3B94724ABC9350031568E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F3B94624ABC9350031568E /* Assets.xcassets */; };
 		36F3B94A24ABC9350031568E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F3B94824ABC9350031568E /* LaunchScreen.storyboard */; };
+		36F3B95724ABD3700031568E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95224ABD3700031568E /* SwiftyJSON.framework */; };
+		36F3B95824ABD3700031568E /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95224ABD3700031568E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36F3B95924ABD3700031568E /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95324ABD3700031568E /* SVProgressHUD.framework */; };
+		36F3B95A24ABD3710031568E /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95324ABD3700031568E /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36F3B95B24ABD3710031568E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95424ABD3700031568E /* Alamofire.framework */; };
+		36F3B95C24ABD3710031568E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95424ABD3700031568E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36F3B95D24ABD3710031568E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95524ABD3700031568E /* Realm.framework */; };
+		36F3B95E24ABD3710031568E /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95524ABD3700031568E /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36F3B95F24ABD3710031568E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95624ABD3700031568E /* RealmSwift.framework */; };
+		36F3B96024ABD3710031568E /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95624ABD3700031568E /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36F3B96124ABD3710031568E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36F3B95E24ABD3710031568E /* Realm.framework in Embed Frameworks */,
+				36F3B96024ABD3710031568E /* RealmSwift.framework in Embed Frameworks */,
+				36F3B95A24ABD3710031568E /* SVProgressHUD.framework in Embed Frameworks */,
+				36F3B95C24ABD3710031568E /* Alamofire.framework in Embed Frameworks */,
+				36F3B95824ABD3700031568E /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36F3B93724ABC9320031568E /* Skillbox-14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox-14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +54,11 @@
 		36F3B94624ABC9350031568E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F3B94924ABC9350031568E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F3B94B24ABC9350031568E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F3B95224ABD3700031568E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		36F3B95324ABD3700031568E /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		36F3B95424ABD3700031568E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		36F3B95524ABD3700031568E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		36F3B95624ABD3700031568E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F3B95D24ABD3710031568E /* Realm.framework in Frameworks */,
+				36F3B95F24ABD3710031568E /* RealmSwift.framework in Frameworks */,
+				36F3B95924ABD3700031568E /* SVProgressHUD.framework in Frameworks */,
+				36F3B95B24ABD3710031568E /* Alamofire.framework in Frameworks */,
+				36F3B95724ABD3700031568E /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +82,7 @@
 			children = (
 				36F3B93924ABC9320031568E /* Skillbox-14 */,
 				36F3B93824ABC9320031568E /* Products */,
+				36F3B95124ABD3700031568E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +97,52 @@
 		36F3B93924ABC9320031568E /* Skillbox-14 */ = {
 			isa = PBXGroup;
 			children = (
+				36F3B96424ABD4BF0031568E /* View */,
+				36F3B96324ABD4AC0031568E /* Model */,
+				36F3B96224ABD49A0031568E /* Controller */,
+				36F3B94024ABC9320031568E /* Main.storyboard */,
 				36F3B93A24ABC9320031568E /* AppDelegate.swift */,
 				36F3B93C24ABC9320031568E /* SceneDelegate.swift */,
-				36F3B93E24ABC9320031568E /* ViewController.swift */,
-				36F3B94024ABC9320031568E /* Main.storyboard */,
 				36F3B94624ABC9350031568E /* Assets.xcassets */,
 				36F3B94824ABC9350031568E /* LaunchScreen.storyboard */,
 				36F3B94B24ABC9350031568E /* Info.plist */,
 				36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */,
 			);
 			path = "Skillbox-14";
+			sourceTree = "<group>";
+		};
+		36F3B95124ABD3700031568E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F3B95424ABD3700031568E /* Alamofire.framework */,
+				36F3B95524ABD3700031568E /* Realm.framework */,
+				36F3B95624ABD3700031568E /* RealmSwift.framework */,
+				36F3B95324ABD3700031568E /* SVProgressHUD.framework */,
+				36F3B95224ABD3700031568E /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F3B96224ABD49A0031568E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36F3B93E24ABC9320031568E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		36F3B96324ABD4AC0031568E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36F3B96424ABD4BF0031568E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +155,7 @@
 				36F3B93324ABC9320031568E /* Sources */,
 				36F3B93424ABC9320031568E /* Frameworks */,
 				36F3B93524ABC9320031568E /* Resources */,
+				36F3B96124ABD3710031568E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +366,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TW24T8NUM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Skillbox-14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +388,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TW24T8NUM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Skillbox-14/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
