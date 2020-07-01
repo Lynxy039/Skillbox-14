@@ -15,11 +15,9 @@ class ViewController: UIViewController {
   
   @IBAction func namePrinted(_ sender: Any) {
     Persistance.shared.name = nameTextField.text
-    print ("Changed \(nameTextField.text)")
   }
   @IBAction func surnamePrinted(_ sender: Any) {
     Persistance.shared.surname = surnameTextField.text
-    print ("Changed \(surnameTextField.text)")
   }
   
   override func viewDidLoad() {
