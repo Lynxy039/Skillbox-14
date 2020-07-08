@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3676BF9224B274D6005DDCAF /* TasksPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676BF9124B274D6005DDCAF /* TasksPersistance.swift */; };
 		36F3B93B24ABC9320031568E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B93A24ABC9320031568E /* AppDelegate.swift */; };
 		36F3B93D24ABC9320031568E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B93C24ABC9320031568E /* SceneDelegate.swift */; };
 		36F3B93F24ABC9320031568E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B93E24ABC9320031568E /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3676BF9124B274D6005DDCAF /* TasksPersistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPersistance.swift; sourceTree = "<group>"; };
 		36F3B93724ABC9320031568E /* Skillbox-14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox-14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F3B93A24ABC9320031568E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F3B93C24ABC9320031568E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,9 +114,9 @@
 				36F3B96224ABD49A0031568E /* Controller */,
 				36F3B94024ABC9320031568E /* Main.storyboard */,
 				36F3B96924AD10ED0031568E /* ToDo.storyboard */,
+				36F3B94624ABC9350031568E /* Assets.xcassets */,
 				36F3B93A24ABC9320031568E /* AppDelegate.swift */,
 				36F3B93C24ABC9320031568E /* SceneDelegate.swift */,
-				36F3B94624ABC9350031568E /* Assets.xcassets */,
 				36F3B94824ABC9350031568E /* LaunchScreen.storyboard */,
 				36F3B94B24ABC9350031568E /* Info.plist */,
 				36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */,
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				36F3B96524ABD5F00031568E /* Persistance.swift */,
+				3676BF9124B274D6005DDCAF /* TasksPersistance.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F3B94524ABC9320031568E /* Skillbox_14.xcdatamodeld in Sources */,
+				3676BF9224B274D6005DDCAF /* TasksPersistance.swift in Sources */,
 				36F3B96C24AD1FC10031568E /* TableViewController.swift in Sources */,
 				36F3B93F24ABC9320031568E /* ViewController.swift in Sources */,
 				36F3B96E24AD1FDA0031568E /* ToDoTableViewCell.swift in Sources */,
