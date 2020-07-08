@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJq-Vi-pOx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="489"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJq-Vi-pOx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
                                 <connections>
                                     <segue destination="HPy-vn-WvW" kind="embed" identifier="TableViewSegue" id="aNp-Lw-kbm"/>
                                 </connections>
@@ -81,8 +80,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="pJq-Vi-pOx" firstAttribute="trailing" secondItem="wcX-Vn-GnM" secondAttribute="trailing" id="Igb-CZ-WfL"/>
                             <constraint firstItem="CfL-nK-pfv" firstAttribute="leading" secondItem="wcX-Vn-GnM" secondAttribute="leading" constant="10" id="VoP-1E-DIG"/>
                             <constraint firstItem="wcX-Vn-GnM" firstAttribute="bottom" secondItem="CfL-nK-pfv" secondAttribute="bottom" constant="10" id="WBC-Gz-4qC"/>
+                            <constraint firstItem="pJq-Vi-pOx" firstAttribute="leading" secondItem="wcX-Vn-GnM" secondAttribute="leading" id="br8-ZJ-Gdp"/>
+                            <constraint firstItem="CfL-nK-pfv" firstAttribute="top" secondItem="pJq-Vi-pOx" secondAttribute="bottom" constant="10" id="pLy-0j-G59"/>
+                            <constraint firstItem="pJq-Vi-pOx" firstAttribute="top" secondItem="wcX-Vn-GnM" secondAttribute="top" id="y4K-Kt-dNK"/>
                             <constraint firstItem="wcX-Vn-GnM" firstAttribute="trailing" secondItem="CfL-nK-pfv" secondAttribute="trailing" constant="10" id="yUl-Fh-9ld"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wcX-Vn-GnM"/>
@@ -105,17 +108,17 @@
             <objects>
                 <viewController id="HPy-vn-WvW" customClass="TableViewController" customModule="Skillbox_14" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cqb-rS-ajH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="489"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6zI-PU-u0h">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="489"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lw9-x5-E6w">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="489"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
                                         <subviews>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bouncesZoom="NO" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelectionDuringEditing="YES" allowsMultipleSelection="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="by2-Ea-xqq">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="489"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="separatorColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <prototypes>
