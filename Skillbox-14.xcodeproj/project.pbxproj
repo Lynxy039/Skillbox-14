@@ -12,7 +12,6 @@
 		36F3B93D24ABC9320031568E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B93C24ABC9320031568E /* SceneDelegate.swift */; };
 		36F3B93F24ABC9320031568E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B93E24ABC9320031568E /* ViewController.swift */; };
 		36F3B94224ABC9320031568E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F3B94024ABC9320031568E /* Main.storyboard */; };
-		36F3B94524ABC9320031568E /* Skillbox_14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */; };
 		36F3B94724ABC9350031568E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F3B94624ABC9350031568E /* Assets.xcassets */; };
 		36F3B94A24ABC9350031568E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F3B94824ABC9350031568E /* LaunchScreen.storyboard */; };
 		36F3B95724ABD3700031568E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F3B95224ABD3700031568E /* SwiftyJSON.framework */; };
@@ -57,7 +56,6 @@
 		36F3B93C24ABC9320031568E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36F3B93E24ABC9320031568E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36F3B94124ABC9320031568E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36F3B94424ABC9320031568E /* Skillbox_14.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skillbox_14.xcdatamodel; sourceTree = "<group>"; };
 		36F3B94624ABC9350031568E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F3B94924ABC9350031568E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F3B94B24ABC9350031568E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				36F3B93C24ABC9320031568E /* SceneDelegate.swift */,
 				36F3B94824ABC9350031568E /* LaunchScreen.storyboard */,
 				36F3B94B24ABC9350031568E /* Info.plist */,
-				36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */,
 			);
 			path = "Skillbox-14";
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F3B94524ABC9320031568E /* Skillbox_14.xcdatamodeld in Sources */,
 				3676BF9224B274D6005DDCAF /* TasksPersistance.swift in Sources */,
 				36F3B96C24AD1FC10031568E /* TableViewController.swift in Sources */,
 				36F3B93F24ABC9320031568E /* ViewController.swift in Sources */,
@@ -450,19 +446,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		36F3B94324ABC9320031568E /* Skillbox_14.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				36F3B94424ABC9320031568E /* Skillbox_14.xcdatamodel */,
-			);
-			currentVersion = 36F3B94424ABC9320031568E /* Skillbox_14.xcdatamodel */;
-			path = Skillbox_14.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 36F3B92F24ABC9320031568E /* Project object */;
 }
